@@ -791,8 +791,10 @@
             width: 80%;
             letter-spacing: 1px;
             color: #FFF;
-            font-size: 8px;
+            font-size: 14px;
             font-family: Sans-Serif;
+            justify-content: center;
+            align-items: center;
         }
         .card-wrapper {
             text-align: center;
@@ -814,7 +816,7 @@
             transition: 0.5s ease-in-out;
         }
         .card-wrapper h2 {
-            font-size: 12px;
+            font-size: 6px;
             text-transform: uppercase;
             letter-spacing: 4px;
             margin: 0;
@@ -850,7 +852,7 @@
             align-items: center;
             justify-content: center;
             color: #ffffff;
-            font-size: 12px;
+            font-size: 8px;
         }
         /* *********************************CAMPO QUE VAI FALAR SOBRE MIM *********************************** */
         .eu-container {
