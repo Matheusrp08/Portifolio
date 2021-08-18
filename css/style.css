@@ -571,7 +571,7 @@
     
     .progress-bar6::before {
         content: "";
-        width: 100%;
+        width: 30%;
         border-radius: 15px;
         background-color: #0fd439;
         animation: progress6-animation 8s infinite;
@@ -582,7 +582,7 @@
             width: 0%;
         }
         100% {
-            width: 100%
+            width: 30%
         }
     }
     /* **************************************media *********************************************/
@@ -1107,7 +1107,7 @@
         }
         .progress-bar6::before {
             content: "";
-            width: 100%;
+            width: 30%;
             border-radius: 15px;
             background-color: #0fd439;
             animation: progress6-animation 8s infinite;
@@ -1117,7 +1117,7 @@
                 width: 0%;
             }
             100% {
-                width: 100%
+                width: 30%
             }
         }
     }
