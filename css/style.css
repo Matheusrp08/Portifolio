@@ -585,4 +585,536 @@
             width: 100%
         }
     }
-    /* **************************************PROXIMO *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    /* **************************************media *********************************************/
+    
+    @media (max-width: 600px) {
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Oxygen', sans-serif;
+            color: #1C1C1C;
+            overflow-x: hidden;
+            background-color: rgba(21, 0, 32, 0.938);
+            background-size: 122px;
+        }
+        /*HEADER*/
+        .header-container {
+            height: 100vh;
+            width: 100vw;
+            background-color: #1E1E2A;
+            background-image: url(../img/backgound.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            box-sizing: border-box;
+            padding: 0 112px;
+            position: relative;
+        }
+        h1 {
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+        }
+        h2 {
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 16px;
+        }
+        .social-midia {
+            margin-top: 1rem;
+            display: flex;
+        }
+        .social-midia a {
+            text-decoration: none;
+            color: #1E1E2A;
+            padding: 1rem 1rem;
+            border: 1px solid;
+            min-width: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: .5s ease-in-out;
+        }
+        a:hover {
+            background-color: white;
+        }
+        /*MENU */
+        .checkbox-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .checkbox {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 0;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            cursor: pointer;
+            z-index: 9999;
+            transition: 400ms ease-in-out 0s;
+        }
+        .checkbox .trace {
+            width: 30px;
+            height: 2px;
+            background-color: #1E1E2A;
+            position: absolute;
+            border-radius: 4px;
+            transition: 0.5s ease-in-out;
+        }
+        .checkbox .trace:nth-child(1) {
+            top: 26px;
+            transform: rotate(0);
+        }
+        .checkbox .trace:nth-child(2) {
+            top: 46px;
+            transform: rotate(0);
+        }
+        .checkbox .trace:nth-child(3) {
+            top: 66px;
+            transform: rotate(0);
+        }
+        #toggle {
+            display: none;
+        }
+        /*  MENU TOPO  */
+        .menu {
+            position: absolute;
+            top: 28px;
+            right: 30px;
+            background-color: transparent;
+            height: 4px;
+            width: 40px;
+            border-radius: 50%;
+            box-shadow: 0px 0px 0px 0px white;
+            z-index: -1;
+            transition: 400ms ease-in-out 0s;
+        }
+        .menu-itens {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2;
+            opacity: 0;
+            visibility: hidden;
+            transition: 400ms ease-in-out 0s;
+        }
+        .menu-itens ul {
+            list-style-type: none;
+        }
+        .menu-itens ul li a {
+            margin: 10px 0;
+            color: #1E1E2A;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            font-size: 24px;
+        }
+        #toggle:checked+.checkbox .trace:nth-child(1) {
+            transform: rotate(45deg);
+            top: 47px;
+        }
+        #toggle:checked+.checkbox .trace:nth-child(2) {
+            transform: translate(-100px);
+            width: 30px;
+            visibility: hidden;
+            opacity: 0;
+        }
+        #toggle:checked+.checkbox .trace:nth-child(3) {
+            transform: rotate(-45deg);
+            top: 48px;
+        }
+        #toggle:checked+.checkbox {
+            background-color: white;
+        }
+        #toggle:checked~.menu {
+            box-shadow: 0px 0px 0px 100vmax white;
+            z-index: 1;
+        }
+        #toggle:checked~.menu-itens {
+            visibility: visible;
+            opacity: 1;
+        }
+        /* CARDS PROJETOS */
+        .container2 {
+            height: auto;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 3rem 0;
+        }
+        .card-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+        }
+        .card {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            margin: 4rem 0 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url(../img/site.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            filter: grayscale(0.5);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+        }
+        .card-text {
+            width: 80%;
+            letter-spacing: 1px;
+            color: #FFF;
+            font-size: 8px;
+            font-family: Sans-Serif;
+        }
+        .card-wrapper {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .card-wrapper::before {
+            content: '';
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            display: block;
+            border: 2px solid white;
+            opacity: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .card-wrapper h2 {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            margin: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .card-wrapper p {
+            font-size: 0;
+            visibility: hidden;
+            opacity: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.5s ease-in-out;
+        }
+        .car:hover {
+            filter: unset;
+        }
+        .card:hover>.card-wrapper::before {
+            height: 100px;
+            width: 100px;
+            opacity: 1;
+        }
+        .card:hover>.card-wrapper p {
+            opacity: 1;
+            visibility: visible;
+            font-size: 10px;
+        }
+        /*FOOTER*/
+        .footer1 {
+            width: 100vw;
+            height: 100px;
+            background-color: rgba(23, 1, 85, 0.801);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+        }
+        /* *********************************CAMPO QUE VAI FALAR SOBRE MIM *********************************** */
+        .eu-container {
+            margin: 0;
+            padding: 0;
+            height: 100vmin;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin: 1rem 0;
+            background-image: url("../img/inteligencia.jpg");
+            background-size: cover;
+        }
+        .eu-card-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+        }
+        .eu-card {
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            margin: 4rem 0 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #8b7700;
+            background-image: url(../img/EU.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            filter: grayscale(0.5);
+            color: rgb(54, 57, 59);
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+        }
+        .eu-card-text {
+            width: 80%;
+            letter-spacing: 1px;
+            color: #FFF;
+            font-size: 8px;
+            font-family: Sans-Serif;
+        }
+        .eu-card-wrapper {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .eu-card-wrapper::before {
+            content: '';
+            position: absolute;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            display: block;
+            border: 2px solid white;
+            opacity: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .eu-card-wrapper h2 {
+            font-size: 2px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0;
+            transition: 0.5s ease-in-out;
+        }
+        .eu-card-wrapper p {
+            font-size: 0;
+            visibility: hidden;
+            opacity: 0;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: 0.5s ease-in-out;
+        }
+        .eu-card:hover {
+            filter: unset;
+        }
+        .eu-card:hover>.eu-card-wrapper::before {
+            height: 100px;
+            width: 100px;
+            opacity: 1;
+        }
+        .eu-card:hover>.eu-card-wrapper p {
+            opacity: 1;
+            visibility: visible;
+            font-size: 14px;
+        }
+        /* TEXTO TITULO */
+        h5 {
+            margin: 0;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 14px;
+            color: rgb(208, 255, 0);
+            font-weight: bold;
+            margin: 0;
+        }
+        /* TEXTO SUBTITULO */
+        h6 {
+            font-family: 'Oxygen', sans-serif;
+            font-size: 12px;
+            box-shadow: .2em 0 0 #000000;
+            margin: 1rem 0rem;
+            width: 42ch;
+            overflow: hidden;
+            color: #FFF;
+            white-space: nowrap;
+            animation: caret .3s step-end infinite alternate, type 3s steps(18, end) infinite
+        }
+        @keyframes type {
+            0% {
+                width: 0;
+            }
+        }
+        @keyframes caret {
+            50% {
+                box-shadow: .15em 0 0 transparent;
+            }
+        }
+        /* ************************************BARRA DE PORCENTAGEM 01 **********************************/
+        .progress-bar {
+            height: 10px;
+            width: 70%;
+            padding: 3px;
+            background-color: #ccc;
+            border-radius: 15px;
+            display: flex;
+        }
+        .progress-bar::before {
+            content: "";
+            width: 85%;
+            border-radius: 15px;
+            background-color: #0fd439;
+            animation: progress-animation 8s infinite;
+        }
+        @keyframes progress-animation {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 85%
+            }
+        }
+        /* ************************************BARRA DE PORCENTAGEM 02 **********************************/
+        .progress-bar2 {
+            height: 10px;
+            width: 70%;
+            padding: 3px;
+            background-color: #ccc;
+            border-radius: 15px;
+            display: flex;
+        }
+        .progress-bar2::before {
+            content: "";
+            width: 40%;
+            border-radius: 15px;
+            background-color: #0fd439;
+            animation: progress2-animation 8s infinite;
+        }
+        @keyframes progress2-animation {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 40%
+            }
+        }
+        /* ************************************BARRA DE PORCENTAGEM 03 **********************************/
+        .progress-bar3 {
+            height: 10px;
+            width: 70%;
+            padding: 3px;
+            background-color: #ccc;
+            border-radius: 15px;
+            display: flex;
+        }
+        .progress-bar3::before {
+            content: "";
+            width: 55%;
+            border-radius: 15px;
+            background-color: #0fd439;
+            animation: progress3-animation 8s infinite;
+        }
+        @keyframes progress3-animation {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 55%
+            }
+        }
+        /* ************************************BARRA DE PORCENTAGEM 04 **********************************/
+        .progress-bar4 {
+            height: 10px;
+            width: 70%;
+            padding: 3px;
+            background-color: #ccc;
+            border-radius: 15px;
+            display: flex;
+        }
+        .progress-bar4::before {
+            content: "";
+            width: 90%;
+            border-radius: 15px;
+            background-color: #0fd439;
+            animation: progress4-animation 8s infinite;
+        }
+        @keyframes progress4-animation {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 90%
+            }
+        }
+        /* ************************************BARRA DE PORCENTAGEM 05 **********************************/
+        .progress-bar5 {
+            height: 10px;
+            width: 70%;
+            padding: 3px;
+            background-color: #ccc;
+            border-radius: 15px;
+            display: flex;
+        }
+        .progress-bar5::before {
+            content: "";
+            width: 70%;
+            border-radius: 15px;
+            background-color: #0fd439;
+            animation: progress5-animation 8s infinite;
+        }
+        @keyframes progress5-animation {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 70%
+            }
+        }
+        /* ************************************BARRA DE PORCENTAGEM 06 **********************************/
+        .progress-bar6 {
+            height: 10px;
+            width: 70%;
+            padding: 3px;
+            background-color: #ccc;
+            border-radius: 15px;
+            display: flex;
+        }
+        .progress-bar6::before {
+            content: "";
+            width: 100%;
+            border-radius: 15px;
+            background-color: #0fd439;
+            animation: progress6-animation 8s infinite;
+        }
+        @keyframes progress6-animation {
+            0% {
+                width: 0%;
+            }
+            100% {
+                width: 100%
+            }
+        }
+    }
