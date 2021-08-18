@@ -605,6 +605,7 @@
             overflow-x: hidden;
             background-color: rgba(21, 0, 32, 0.938);
             background-size: 122px;
+            overflow-x: hidden;
         }
         /*HEADER*/
         .header-container {
