@@ -329,10 +329,10 @@
     
     .eu-card-text {
         width: 60%;
-        letter-spacing: 2px;
+        letter-spacing: 0px;
         color: #FFF;
-        font-size: 18px;
-        font-family: Sans-Serif;
+        font-size: 16px;
+        font-family: Helvetica;
     }
     
     .eu-card-wrapper {
@@ -403,11 +403,11 @@
     h6 {
         font-family: 'Oxygen', sans-serif;
         font-size: 18px;
-        box-shadow: .2em 0 0 #000000;
+        box-shadow: .2em 0 0 #f8f8f8;
         margin: 1rem 0rem;
-        width: 42ch;
+        width: 34ch;
         overflow: hidden;
-        color: #FFF;
+        color: rgb(255, 0, 0);
         white-space: nowrap;
         animation: caret .3s step-end infinite alternate, type 3s steps(18, end) infinite
     }
@@ -847,7 +847,7 @@
             position: absolute;
             width: 100vw;
             height: 50px;
-            background-color: rgba(7, 0, 12, 0.842);
+            background-color: rgb(19, 0, 31);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -863,7 +863,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            margin: 1rem 0;
+            margin: 4rem 0;
             background-image: url("../img/inteligencia.jpg");
             background-size: cover;
         }
@@ -871,13 +871,13 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            width: 100%;
+            width: 90%;
         }
         .eu-card {
             width: 100px;
             height: 100px;
             border-radius: 100%;
-            margin: 4rem 0 0 0;
+            margin: 2rem 0 0 0;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -892,11 +892,12 @@
             transition: 0.5s ease-in-out;
         }
         .eu-card-text {
-            width: 80%;
-            letter-spacing: 1px;
+            width: 70%;
+            letter-spacing: 0px;
             color: #FFF;
-            font-size: 8px;
-            font-family: Sans-Serif;
+            font-size: 9px;
+            font-family: helvetica;
+            text-justify: auto;
         }
         .eu-card-wrapper {
             text-align: center;
@@ -978,9 +979,9 @@
         }
         /* ************************************BARRA DE PORCENTAGEM 01 **********************************/
         .progress-bar {
-            height: 10px;
-            width: 70%;
-            padding: 3px;
+            height: 3px;
+            width: 38%;
+            padding: 2px;
             background-color: #ccc;
             border-radius: 15px;
             display: flex;
@@ -1002,9 +1003,9 @@
         }
         /* ************************************BARRA DE PORCENTAGEM 02 **********************************/
         .progress-bar2 {
-            height: 10px;
-            width: 70%;
-            padding: 3px;
+            height: 3px;
+            width: 38%;
+            padding: 2px;
             background-color: #ccc;
             border-radius: 15px;
             display: flex;
@@ -1026,9 +1027,9 @@
         }
         /* ************************************BARRA DE PORCENTAGEM 03 **********************************/
         .progress-bar3 {
-            height: 10px;
-            width: 70%;
-            padding: 3px;
+            height: 3px;
+            width: 38%;
+            padding: 2px;
             background-color: #ccc;
             border-radius: 15px;
             display: flex;
@@ -1050,9 +1051,9 @@
         }
         /* ************************************BARRA DE PORCENTAGEM 04 **********************************/
         .progress-bar4 {
-            height: 10px;
-            width: 70%;
-            padding: 3px;
+            height: 3px;
+            width: 38%;
+            padding: 2px;
             background-color: #ccc;
             border-radius: 15px;
             display: flex;
@@ -1074,9 +1075,9 @@
         }
         /* ************************************BARRA DE PORCENTAGEM 05 **********************************/
         .progress-bar5 {
-            height: 10px;
-            width: 70%;
-            padding: 3px;
+            height: 3px;
+            width: 38%;
+            padding: 2px;
             background-color: #ccc;
             border-radius: 15px;
             display: flex;
@@ -1098,9 +1099,9 @@
         }
         /* ************************************BARRA DE PORCENTAGEM 06 **********************************/
         .progress-bar6 {
-            height: 10px;
-            width: 70%;
-            padding: 3px;
+            height: 3px;
+            width: 38%;
+            padding: 2px;
             background-color: #ccc;
             border-radius: 15px;
             display: flex;
