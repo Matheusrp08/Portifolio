@@ -845,11 +845,12 @@
         .footer1 {
             width: 100vw;
             height: 100px;
-            background-color: rgba(23, 1, 85, 0.801);
+            background-color: rgba(46, 0, 77, 0.74);
             display: flex;
             align-items: center;
             justify-content: center;
             color: #ffffff;
+            font-size: 12px;
         }
         /* *********************************CAMPO QUE VAI FALAR SOBRE MIM *********************************** */
         .eu-container {
