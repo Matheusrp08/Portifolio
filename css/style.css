@@ -5,7 +5,7 @@
         font-family: 'Oxygen', sans-serif;
         color: #1C1C1C;
         overflow-x: hidden;
-        background-color: rgba(rgb(212, 212, 212), rgb(226, 243, 226), rgb(157, 157, 172), alpha);
+        background-color: rgba(21, 0, 32, 0.938);
         background-size: cover;
     }
     /*HEADER*/
@@ -206,7 +206,7 @@
         align-items: center;
         justify-content: center;
         background-color: #1E1E2A;
-        background-image: url(../img/projeto1.jpeg);
+        background-image: url(../img/site.png);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -219,7 +219,7 @@
     .card-text {
         width: 40%;
         letter-spacing: 1px;
-        color: rgb(2, 2, 2);
+        color: rgb(255, 253, 253);
     }
     
     .card-wrapper {
@@ -238,7 +238,7 @@
         width: 100px;
         border-radius: 50%;
         display: block;
-        border: 1px solid white;
+        border: 1px solid rgb(255, 255, 255);
         opacity: 0;
         transition: 0.5s ease-in-out;
     }
@@ -280,15 +280,17 @@
     .footer1 {
         width: 100vw;
         height: 100px;
-        background-color: teal;
+        background-color: rgb(19, 0, 31);
         display: flex;
         align-items: center;
         justify-content: center;
-        color: #1E1E2A;
+        color: #ffffff;
     }
     /* *********************************CAMPO QUE VAI FALAR SOBRE MIM *********************************** */
     
     .eu-container {
+        margin: 0;
+        padding: 0;
         height: 100vmin;
         width: 100%;
         display: flex;
@@ -297,7 +299,6 @@
         margin: 3rem 0;
         background-image: url("../img/inteligencia.jpg");
         background-size: cover;
-        background-position: center;
     }
     
     .eu-card-container {
@@ -331,7 +332,7 @@
         letter-spacing: 2px;
         color: #FFF;
         font-size: 18px;
-        font-family: Helvetica;
+        font-family: Sans-Serif;
     }
     
     .eu-card-wrapper {
@@ -390,6 +391,7 @@
     /* TEXTO TITULO */
     
     h5 {
+        margin: 0;
         font-family: 'Oxygen', sans-serif;
         font-size: 36px;
         color: rgb(208, 255, 0);
@@ -401,7 +403,7 @@
     h6 {
         font-family: 'Oxygen', sans-serif;
         font-size: 18px;
-        box-shadow: .3em 0 0 #000000;
+        box-shadow: .2em 0 0 #000000;
         margin: 1rem 0rem;
         width: 42ch;
         overflow: hidden;
