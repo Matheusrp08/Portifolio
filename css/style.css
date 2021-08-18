@@ -8,6 +8,13 @@
         background-color: rgba(21, 0, 32, 0.938);
         background-size: cover;
     }
+    
+    .tecnoligia-imagem {
+        margin: 0;
+        padding: 0;
+        background-image: url("../img/testando.gif");
+        border-radius: 10%;
+    }
     /*HEADER*/
     
     .header-container {
@@ -15,6 +22,7 @@
         width: 100vw;
         background-color: #1E1E2A;
         background-image: url(../img/backgound.jpg);
+        border-radius: 10px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -298,6 +306,7 @@
         justify-content: space-evenly;
         margin: 3rem 0;
         background-image: url("../img/inteligencia.jpg");
+        border-radius: 5%;
         background-size: cover;
     }
     
@@ -858,7 +867,7 @@
         .eu-container {
             margin: 0;
             padding: 0;
-            height: 110vmin;
+            height: 110v;
             width: 100%;
             display: flex;
             flex-direction: column;
