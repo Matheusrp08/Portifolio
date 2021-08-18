@@ -620,7 +620,7 @@
             justify-content: center;
             align-items: flex-start;
             box-sizing: border-box;
-            padding: 0 112px;
+            padding: 0 50px;
             position: relative;
         }
         h1 {
@@ -631,7 +631,7 @@
         h2 {
             text-transform: uppercase;
             letter-spacing: 4px;
-            font-size: 16px;
+            font-size: 12px;
         }
         .social-midia {
             margin-top: 1rem;
