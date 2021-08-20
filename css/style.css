@@ -340,7 +340,7 @@
         width: 60%;
         letter-spacing: 0px;
         color: #FFF;
-        font-size: 16px;
+        font-size: 26px;
         font-family: Helvetica;
     }
     
@@ -411,7 +411,7 @@
     
     h6 {
         font-family: 'Oxygen', sans-serif;
-        font-size: 18px;
+        font-size: 24px;
         box-shadow: .2em 0 0 #f8f8f8;
         margin: 1rem 0rem;
         width: 34ch;
